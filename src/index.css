@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    /* color: rgb(227, 21, 21); */
+  }
+
+  
+  .main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child-div {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .child-div figure img {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .child-div figure figcaption {
+    color: rgb(198, 67, 67);
+    font-size: 2rem;
+    padding-top:10px;
+    text-transform: capitalize;
+  }
+ 
+  input {
+  width: 100%;
+  height: 3.4rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.5rem;
+  line-height: 1.42857143;
+  margin-top: 2rem;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  }
+
+  input:focus,
+  input:active,
+  input:active:focus {
+    border: none;
+    padding: 2.3rem 1.5rem;
+    /* outline: none; */
+  }
+     
+  input {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  input:focus {
+    -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  }
+
+
+  
+   
+  
+  .fa {
+    margin-left: -2.5rem;
+    padding-top: 2px;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+    background-color: transparent;
+    background-image: none;
+    color: rgb(236, 9, 9);
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    font-size: 2rem;
+    border: none;
+  }
+  .fa:hover {
+    color: rgb(47, 214, 122);
+  }
+  
+  .delbtn{
+    margin-left: -2.5rem;
+    padding-top: 2px;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+    background-color: transparent;
+    /* background-image: none; */
+    color: rgb(238, 23, 23);
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    font-size: 2rem;
+    border: none;
+  }
+  .showItems {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .eachItem {
+    background: #fff;
+    margin-top:20px;
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    margin-left: 0.5rem;
+    width: 100%;
+    word-break: break-word;
+    background: rgb(85, 41, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .eachItem:hover {
+    background: rgb(152, 152, 156);
+    color: rgb(85, 41, 220);
+  }
+  
+  .showItems .eachItem h3 {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+  } 
