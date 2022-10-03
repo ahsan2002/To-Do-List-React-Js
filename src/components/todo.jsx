@@ -85,7 +85,6 @@ const Todo = () => {
               </button>
             )}
           </div>
-
           <div className="show-Items">
             {items.map((ele) => {
               return (
