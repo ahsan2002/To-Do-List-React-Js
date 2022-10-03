@@ -114,7 +114,7 @@ const Todo = () => {
           </div>
 
           <div className="showItems">
-            <Button title="Remove All" onClick={removeAll} variant="contained">
+            <Button style={{borderRadius:"100px",color:"black",backgroundColor:"#C04848"}} title="Remove All" onClick={removeAll} variant="contained">
               Remove All
             </Button>
           </div>
