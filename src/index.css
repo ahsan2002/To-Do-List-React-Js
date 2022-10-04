@@ -157,6 +157,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    transition:  background 0.15s linear;
   }
   
   .eachItem:hover {
