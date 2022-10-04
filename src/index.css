@@ -156,11 +156,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
   }
   
   .eachItem:hover {
     background: rgb(152, 152, 156);
-    color: rgb(85, 41, 220);
+    color: black;
   }
   
   .showItems .eachItem h3 {
